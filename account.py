@@ -21,7 +21,7 @@ class Account:
         self.__account_balance += amount
         return True
 
-    def withdraw(self, amount: float -> bool):
+    def withdraw(self, amount: float) -> bool:
         """
         Subtract the specified amount from the account balance.
         :param amount: Amount subtracted from balance
